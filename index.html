@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="manifest" href="manifest.json">
+  <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="./assets/images/hello-icon-152.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="white" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="CV Hasan">
+  <meta name="msapplication-TileImage" content="./assets/images/hello-icon-144.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Fots -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- Remixicon Icon -->
+  <link href="./assets/css/remixicon.css" rel="stylesheet">
+  <!-- Remixicon Icon -->
+  <!-- Bootstrap CSS -->
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/css/aos.css" rel="stylesheet">
+  <!-- Main CSS -->
+  <link href="./assets/css/main.css" rel="stylesheet">
+
+
+  <title>Portofolio Hasan</title>
+</head>
+
+<body class="fullscreen">
+  <!-- header -->
+  <header class="ds-header" id="site-header">
+    <div class="container">
+      <div class="ds-header-inner">
+        <!-- logo -->
+        <a href="./index.html" class="ds-logo">
+          <span>A</span>ABU HASAN AL ANSHORI
+        </a>
+      </div>
+    </div>
+  </header>
+  <!-- header -->
+  <div class="container">
+    <!-- banner -->
+    <div class="ds-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+            <figure>
+              <img src="./assets/images/profile-image.jpg">
+            </figure>
+          </div>
+          <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+            <section>
+              <h1>
+                <span>HI THERE</span>
+                I’m Abu Hasan Al Anshori <br> UI/UX DESIGNER + DEVELOPER based in Brebes.
+              </h1>
+              <ul class="ds-numbervalulist">
+                <li>
+                  <strong>2+</strong>
+                  <span>Experience</span>
+                </li>
+                <li>
+                  <strong>10</strong>
+                  <span>Projects</span>
+                </li>
+                <li>
+                  <strong>8</strong>
+                  <span>Happy Clients</span>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- banner -->
+
+    <!-- about -->
+    <div class="ds-about-section">
+      <div class="container">
+        <section>
+          <h2 class="ds-heading">About Me</h2>
+          <p>My name is <b style="color: blue;">Abu Hasan Al Anshori</b>, and I am a student at <b
+              style="color: blue;">STMIK Tegal</b> with student ID <b style="color: blue;">21195027</b>. I am majoring
+            in <b style="color: blue;">Regular Morning Computer Science 5th semester</b>. This is a practice exercise
+            for creating a
+            personal profile using a <b style="color: blue;">Progressive Web App (PWA)</b>. The goal of learning PWA is
+            to <b style="color: blue;">enhance my experience in
+              developing mobile applications based on websites</b>.
+          </p>
+          <!-- <div class="ds-button-sec text-center">
+            <a href="#" class="ds-button">Download Resume</a>
+          </div> -->
+        </section>
+      </div>
+    </div>
+    <!-- about -->
+
+    <!--  Skills -->
+    <div class="ds-skills-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <h2 class="ds-heading">Core Skills</h2>
+            <ul class="ds-skills-list">
+              <li>JavaScript</li>
+              <li>PHP</li>
+              <li>CSS Style</li>
+              <li>MySQLDB</li>
+              <li>CodeIgniter</li>
+              <li>Laravel</li>
+              <li>Github</li>
+              <li>HTML</li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <h2 class="ds-heading">Other Skills</h2>
+            <ul class="ds-skills-list">
+              <li>PWAs</li>
+              <li>Responsive Web Design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  footer -->
+  </div>
+  <footer class="ds-footer text-center">
+    <div class="container">
+      <section>
+        <h4>Provide a comment</h4>
+        <div class="card mx-auto" style="width: 50%;">
+          <div class="card-body">
+            <form id="commentForm">
+              <label for="name">Name: </label>
+              <input type="text" id="name" class="form-control" required>
+              <br>
+              <label for="email">Email: </label>
+              <input type="email" id="email" class="form-control" required>
+              <br>
+              <label for="comment">Comment: </label>
+              <textarea id="comment" class="form-control" required></textarea>
+              <br>
+              <button type="submit">Submit</button>
+            </form>
+            <!-- Daftar komentar yang ditampilkan -->
+            <div class="card-body">
+              <label>Comment : </label>
+              <div id="commentList">
+                <!-- Komentar akan muncul di sini -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <span class="ds-copyright">© 2023 All rights reserved. <a href="#" target="_blank">Abu Hasan Al
+          Anshori</a>.</span>
+    </div>
+  </footer>
+  <script>
+    // Membuat atau membuka database IndexedDB
+    const dbName = 'komentarDB';
+    const dbVersion = 1;
+    let db;
+
+    const request = indexedDB.open(dbName, dbVersion);
+
+    request.onerror = (event) => {
+      console.error('Error opening database:', event.target.error);
+    };
+
+    request.onsuccess = (event) => {
+      db = event.target.result;
+      tampilkanKomentar();
+    };
+
+    request.onupgradeneeded = (event) => {
+      db = event.target.result;
+      const objectStore = db.createObjectStore('komentar', { keyPath: 'id', autoIncrement: true });
+      objectStore.createIndex('nama', 'nama', { unique: false });
+      objectStore.createIndex('email', 'email', { unique: false });
+      objectStore.createIndex('komentar', 'komentar', { unique: false });
+    };
+
+    // Fungsi untuk menyimpan komentar ke IndexedDB
+    function simpanKomentar(nama, email, komentar) {
+      const transaction = db.transaction(['komentar'], 'readwrite');
+      const store = transaction.objectStore('komentar');
+
+      const data = { nama, email, komentar };
+      const request = store.add(data);
+
+      request.onsuccess = () => {
+        tampilkanKomentar();
+      };
+
+      request.onerror = (event) => {
+        console.error('Error saving comment:', event.target.error);
+      };
+    }
+
+    // Fungsi untuk menampilkan komentar dari IndexedDB
+    function tampilkanKomentar() {
+      const commentList = document.getElementById('commentList');
+      commentList.innerHTML = '';
+
+      const transaction = db.transaction(['komentar'], 'readonly');
+      const objectStore = transaction.objectStore('komentar');
+      const request = objectStore.openCursor();
+
+      request.onsuccess = (event) => {
+        const cursor = event.target.result;
+        if (cursor) {
+          const comment = document.createElement('div');
+          comment.innerHTML = `<strong>${cursor.value.nama}</strong> (${cursor.value.email}): ${cursor.value.komentar}`;
+          commentList.appendChild(comment);
+          cursor.continue();
+        }
+      };
+    }
+
+    // Menangani pengiriman formulir
+    const commentForm = document.getElementById('commentForm');
+    commentForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const comment = document.getElementById('comment').value;
+
+      simpanKomentar(name, email, comment);
+
+      // Reset formulir
+      commentForm.reset();
+    });
+  </script>
+  <script src="index.js"></script>
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/main_pwa.js"></script>
+</body>
+
+</html>
