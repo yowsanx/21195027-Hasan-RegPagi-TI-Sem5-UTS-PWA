@@ -14,7 +14,12 @@ if ('Notification' in window) {
         alert('Yah ditolak... :( ');
         }
       } else if (permission === 'denied') {
-        alert('Notifikasi Diblokir');
+        var userResponse = window.confirm('Izinkan Notifikasi?');
+        if (userResponse) {
+        alert('Makasih kakak... :v ');
+        } else {
+        alert('Yah ditolak... :( ');
+        }
       }
     });
 }
