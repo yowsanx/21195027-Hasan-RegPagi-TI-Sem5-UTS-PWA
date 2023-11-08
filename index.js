@@ -26,7 +26,7 @@ function requestNotificationPermission() {
         }
       } else if (permission === 'denied') {
         localStorage.setItem('notificationPermission', 'denied');
-        alert('Izin notifikasi telah ditolak');
+        alert('Izin notifikasi telah ditolak dari browser');
       }
     });
 }
